@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gm1957.github.io/guardian-bell-website/sitemap.xml
