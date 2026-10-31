@@ -3,32 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Guardian Bell – Personal Accountability App That Keeps Your Mission Alive</title>
-  <meta name="description" content="Guardian Bell is a personal accountability app. It calls you on a schedule, asks what you got done, and records your spoken reflection so you notice when you drift and get back into action.">
-  <meta name="keywords" content="personal accountability app, accountability partner app, focus app, productivity check-in, self accountability, voice journal, habit streak, personal development">
+  <title>Guardian Bell – AI Accountability App: Check-ins, Follow-through &amp; Self-Evaluation</title>
+  <meta name="description" content="Guardian Bell is an AI accountability app. It rings at check-in time, asks what you got done, turns your spoken or typed answer into commitments, and tracks your follow-through with daily and weekly self-evaluation reports.">
+  <meta name="keywords" content="accountability app, AI accountability coach, productivity tracker, self evaluation app, daily check-in app, focus app, commitment tracker, personal development, habit accountability">
   <link rel="canonical" href="https://gm1957.github.io/guardian-bell-website/">
-  <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#0b1020">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#000000">
   <meta name="color-scheme" content="dark">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Guardian Bell">
-  <meta property="og:title" content="Guardian Bell – Your Personal Accountability Guardian">
-  <meta property="og:description" content="Keeps your mission alive, catches you drifting, and pushes you back into action with scheduled check-in calls and voice reflections.">
+  <meta property="og:title" content="Guardian Bell – The AI accountability app that rings when it’s time to report">
+  <meta property="og:description" content="Alarm-style check-ins, one answer by voice or text, AI that turns it into commitments, and an honest daily scorecard of what you actually did.">
   <meta property="og:url" content="https://gm1957.github.io/guardian-bell-website/">
   <meta property="og:image" content="https://gm1957.github.io/guardian-bell-website/assets/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Guardian Bell logo: an amber bell with a check mark inside a focus ring">
+  <meta property="og:image:alt" content="Guardian Bell: a violet bell with a check mark inside a progress ring, on black">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Guardian Bell – Your Personal Accountability Guardian">
-  <meta name="twitter:description" content="Scheduled check-in calls, spoken reflections and streaks that keep you following through when motivation fades.">
+  <meta name="twitter:title" content="Guardian Bell – AI accountability that rings">
+  <meta name="twitter:description" content="Alarm-style check-ins, AI that turns your answer into commitments, and a self-evaluation tracker for every day and week.">
   <meta name="twitter:image" content="https://gm1957.github.io/guardian-bell-website/assets/og-image.png">
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <link rel="preload" as="image" href="assets/bell.webp" type="image/webp">
+  <link rel="preload" as="image" href="assets/screens/today.webp" type="image/webp">
 
   <script type="application/ld+json">
   {
@@ -46,38 +46,35 @@
         "name": "Guardian Bell",
         "url": "https://gm1957.github.io/guardian-bell-website/",
         "image": "https://gm1957.github.io/guardian-bell-website/assets/icon-512.png",
+        "screenshot": [
+          "https://gm1957.github.io/guardian-bell-website/assets/screens/today.webp",
+          "https://gm1957.github.io/guardian-bell-website/assets/screens/answer.webp",
+          "https://gm1957.github.io/guardian-bell-website/assets/screens/week.webp"
+        ],
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "Android, iOS",
-        "description": "A personal accountability app that rings you with scheduled check-in calls, records your spoken reflection, transcribes it on your device and tracks your streak."
+        "description": "An AI accountability app with alarm-style check-ins, answers by voice or text, AI that turns answers into commitments, and daily and weekly self-evaluation reports."
+      },
+      {
+        "@type": "HowTo",
+        "name": "How a Guardian Bell check-in works",
+        "step": [
+          { "@type": "HowToStep", "name": "It rings", "text": "At check-in time Guardian Bell rings like an alarm and opens an in-app check-in you can answer or decline. Unanswered, it rings again every 5 minutes." },
+          { "@type": "HowToStep", "name": "Hear the question", "text": "A short pre-recorded prompt is played and shown as text." },
+          { "@type": "HowToStep", "name": "Answer once", "text": "Answer in one box by speaking or typing." },
+          { "@type": "HowToStep", "name": "AI records it", "text": "Your AI provider turns the answer into commitments, status updates, reasons for slips and the next check-in time, and shows exactly what it recorded." },
+          { "@type": "HowToStep", "name": "Evaluate", "text": "Each day gets a pass/fail result and a detailed report; weeks and months get a summary with trends." }
+        ]
       },
       {
         "@type": "FAQPage",
         "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is Guardian Bell a productivity app?",
-            "acceptedAnswer": { "@type": "Answer", "text": "It sits in the productivity category, but it is built for personal accountability. Instead of organizing tasks, it checks in on you and asks whether you are still working on what matters." }
-          },
-          {
-            "@type": "Question",
-            "name": "Where are my voice reflections stored?",
-            "acceptedAnswer": { "@type": "Answer", "text": "On your phone. Each reflection is saved as an audio file plus a text transcript in the app's private storage. There is no account and no cloud upload." }
-          },
-          {
-            "@type": "Question",
-            "name": "How does transcription work?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Guardian Bell uses your phone's built-in speech recognition. On iOS it runs on-device when available; on Android it uses the system recognizer, which may use the network. Transcription needs Android 13+ or iOS." }
-          },
-          {
-            "@type": "Question",
-            "name": "Does it call me when the app is closed?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Not yet. Check-in calls currently ring while the app is open, and the screen stays awake during a focus session. Background calls are on the roadmap." }
-          },
-          {
-            "@type": "Question",
-            "name": "When can I download it?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Guardian Bell is in development for Android and iOS. Store listings are coming soon." }
-          }
+          { "@type": "Question", "name": "Do I need an AI provider?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Guardian Bell uses AI to read your check-in answers and write your reports. You choose the provider: Claude, Gemini, Groq, OpenRouter, OpenAI, Mistral, or your own server such as Ollama or LM Studio. Several have free tiers." } },
+          { "@type": "Question", "name": "What happens if I decline a check-in?", "acceptedAnswer": { "@type": "Answer", "text": "You pick when to be reminded (20 minutes, 1 hour, 2 hours, or 30 minutes by default) and can add a reason. The check-in stays pending, not failed, and you can check in any time before the reminder." } },
+          { "@type": "Question", "name": "Will I fail a day because I was slow to answer?", "acceptedAnswer": { "@type": "Answer", "text": "No. Deadlines have a 15-minute grace period, and your answer is judged as of the moment you opened the check-in, not when you pressed submit. A deadline that passes while a check-in is postponed shows as awaiting check-in until you report on it." } },
+          { "@type": "Question", "name": "Who decides pass or fail?", "acceptedAnswer": { "@type": "Answer", "text": "The app, from stored facts: whether each critical commitment was met by its agreed deadline. The AI writes the narrative but never changes the result. Approved pauses and outside interruptions never count as failures." } },
+          { "@type": "Question", "name": "Where is my data stored?", "acceptedAnswer": { "@type": "Answer", "text": "On your phone. Check-ins, commitments and reports are kept in the app's local database, and API keys in the phone's secure storage. Your answers are sent only to the AI provider you choose." } },
+          { "@type": "Question", "name": "Does it work on iPhone?", "acceptedAnswer": { "@type": "Answer", "text": "Guardian Bell is built for Android and iOS. Alarm-style ringing over the lock screen and measured app usage are Android features; on iPhone, check-in reminders arrive as notifications." } }
         ]
       }
     ]
@@ -86,120 +83,146 @@
 
   <style>
     :root {
-      --ink: #0b1020; --surface: #151b2e; --raised: #1e2640; --line: #2a3352;
-      --fg: #e2e8f0; --muted: #94a3b8; --faint: #64748b;
-      --accent: #f59e0b; --accent-soft: #fcd34d; --success: #34d399; --danger: #f43f5e;
-      --radius: 20px; --max: 1120px;
+      --ink: #000000; --surface: #0e0b15; --raised: #19151f; --line: #231d2e;
+      --fg: #f5f3ff; --muted: #9b95ad; --faint: #5f5972;
+      --accent: #8b5cf6; --accent-soft: #c4b5fd; --accent-deep: #2e1065;
+      --success: #30d158; --warning: #ff9f0a; --danger: #ff453a;
+      --radius: 24px; --max: 1140px;
     }
     *, *::before, *::after { box-sizing: border-box; }
     html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
     body {
       margin: 0; background: var(--ink); color: var(--fg); line-height: 1.6;
-      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-family: ui-sans-serif, system-ui, -apple-system, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
     }
     img { max-width: 100%; height: auto; display: block; }
     a { color: inherit; }
     .wrap { max-width: var(--max); margin: 0 auto; padding: 0 20px; }
     .skip { position: absolute; left: -9999px; }
-    .skip:focus { left: 16px; top: 16px; background: var(--accent); color: var(--ink); padding: 8px 12px; border-radius: 8px; z-index: 10; }
+    .skip:focus { left: 16px; top: 16px; background: var(--accent); color: #fff; padding: 8px 12px; border-radius: 8px; z-index: 10; }
     :focus-visible { outline: 2px solid var(--accent-soft); outline-offset: 3px; border-radius: 6px; }
 
-    /* Header */
-    header.site { position: sticky; top: 0; z-index: 5; background: rgb(11 16 32 / .82); backdrop-filter: blur(12px); border-bottom: 1px solid rgb(42 51 82 / .6); }
-    header.site .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
-    .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; text-decoration: none; font-size: 1.05rem; }
-    .brand img { width: 32px; height: 32px; border-radius: 8px; }
-    nav ul { display: flex; gap: 28px; list-style: none; margin: 0; padding: 0; }
-    nav a { text-decoration: none; color: var(--muted); font-size: .95rem; }
+    header.site { position: sticky; top: 0; z-index: 5; background: rgb(0 0 0 / .72); backdrop-filter: saturate(160%) blur(16px); border-bottom: 1px solid rgb(255 255 255 / .06); }
+    header.site .wrap { display: flex; align-items: center; justify-content: space-between; height: 62px; }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; text-decoration: none; }
+    .brand img { width: 30px; height: 30px; border-radius: 8px; }
+    nav ul { display: flex; gap: 26px; list-style: none; margin: 0; padding: 0; }
+    nav a { text-decoration: none; color: var(--muted); font-size: .94rem; }
     nav a:hover { color: var(--fg); }
-    @media (max-width: 720px) { nav { display: none; } }
+    @media (max-width: 820px) { nav { display: none; } }
 
-    /* Buttons */
-    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 22px; border-radius: 14px; font-weight: 600; text-decoration: none; font-size: 1rem; transition: transform .15s, opacity .15s; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 22px; border-radius: 16px; font-weight: 600; text-decoration: none; font-size: 1rem; transition: transform .15s, opacity .15s; }
     .btn:hover { transform: translateY(-1px); }
-    .btn-primary { background: var(--accent); color: var(--ink); }
-    .btn-ghost { border: 1px solid var(--line); color: var(--fg); }
-    .btn svg { width: 18px; height: 18px; }
+    .btn-primary { background: linear-gradient(135deg, #9d74ff, #7c3aed); color: #fff; box-shadow: 0 10px 30px -10px rgb(139 92 246 / .7); }
+    .btn-ghost { background: rgb(255 255 255 / .07); color: var(--fg); }
+
+    .eyebrow { display: inline-block; color: var(--accent-soft); font-weight: 700; letter-spacing: .14em; text-transform: uppercase; font-size: .76rem; }
+    h1 { font-size: clamp(2.4rem, 5.4vw, 4.1rem); line-height: 1.05; letter-spacing: -.025em; margin: 14px 0 20px; }
+    h1 em { font-style: normal; background: linear-gradient(90deg, #c4b5fd, #8b5cf6); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    h2 { font-size: clamp(1.9rem, 3.8vw, 2.8rem); line-height: 1.12; letter-spacing: -.02em; margin: 10px 0 14px; }
+    h3 { font-size: 1.18rem; margin: 12px 0 6px; letter-spacing: -.01em; }
+    .lede { font-size: 1.18rem; color: var(--muted); max-width: 38rem; margin: 0 0 30px; }
+    .section-lede { color: var(--muted); font-size: 1.1rem; max-width: 46rem; margin: 0 0 40px; }
+    .note { margin-top: 16px; color: var(--faint); font-size: .9rem; }
+    section { padding: 92px 0; }
+    section.alt { background: radial-gradient(ellipse at top, rgb(46 16 101 / .35), transparent 60%); border-top: 1px solid rgb(255 255 255 / .05); }
 
     /* Hero */
-    .hero { position: relative; overflow: hidden; padding: 72px 0 96px; }
-    .hero::before { content: ""; position: absolute; inset: -40% -20% auto auto; width: 900px; height: 900px; background: radial-gradient(closest-side, rgb(245 158 11 / .16), transparent); pointer-events: none; }
-    .hero .wrap { display: grid; grid-template-columns: 1.15fr .85fr; gap: 56px; align-items: center; }
-    @media (max-width: 900px) { .hero .wrap { grid-template-columns: 1fr; } .hero { padding-top: 48px; } }
-    .eyebrow { display: inline-block; color: var(--accent); font-weight: 700; letter-spacing: .14em; text-transform: uppercase; font-size: .78rem; }
-    h1 { font-size: clamp(2.3rem, 5.2vw, 3.9rem); line-height: 1.07; letter-spacing: -.02em; margin: 14px 0 20px; }
-    h1 em { font-style: normal; color: var(--accent-soft); }
-    .lede { font-size: 1.18rem; color: var(--muted); max-width: 38rem; margin: 0 0 32px; }
+    .hero { position: relative; overflow: hidden; padding: 64px 0 80px; }
+    .hero::before { content: ""; position: absolute; inset: -30% -10% auto auto; width: 1000px; height: 1000px; background: radial-gradient(closest-side, rgb(139 92 246 / .28), transparent); pointer-events: none; }
+    .hero .wrap { display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; align-items: center; }
+    @media (max-width: 920px) { .hero .wrap { grid-template-columns: 1fr; } .hero { padding-top: 40px; } }
     .cta { display: flex; flex-wrap: wrap; gap: 12px; }
-    .note { margin-top: 18px; color: var(--faint); font-size: .9rem; }
+    .phones { position: relative; height: 640px; }
+    .phones .phone { position: absolute; }
+    .phones .back { right: 0; top: 50px; width: 250px; transform: rotate(6deg); opacity: .9; }
+    .phones .front { left: 10px; top: 0; width: 290px; }
+    @media (max-width: 920px) { .phones { height: 600px; max-width: 460px; margin: 0 auto; width: 100%; } }
+    @media (max-width: 480px) { .phones { height: 520px; } .phones .front { width: 240px; left: 0; } .phones .back { width: 200px; } }
 
-    /* Phone mockup of the check-in call */
-    .phone { justify-self: center; width: min(320px, 100%); aspect-ratio: 9 / 18.5; border-radius: 44px; padding: 12px; background: linear-gradient(160deg, #2a3352, #11162a); box-shadow: 0 40px 80px -30px rgb(0 0 0 / .7), 0 0 0 1px rgb(255 255 255 / .05) inset; }
-    .screen { height: 100%; border-radius: 34px; background: var(--ink); display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 36px 20px 28px; text-align: center; }
-    .screen img { width: 132px; height: 132px; }
-    .screen .tag { color: var(--accent); font-size: .66rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; margin-top: 10px; }
-    .screen .who { font-size: 1.6rem; font-weight: 700; margin: 2px 0; }
-    .screen .sub { color: var(--muted); font-size: .82rem; }
-    .focus { width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 12px 14px; }
-    .focus small { color: var(--faint); font-size: .62rem; letter-spacing: .14em; text-transform: uppercase; }
-    .focus p { margin: 2px 0 0; font-weight: 600; }
-    .calls { display: flex; justify-content: space-around; width: 100%; }
-    .call { display: grid; justify-items: center; gap: 6px; font-size: .75rem; }
-    .call span { width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center; }
-    .call svg { width: 24px; height: 24px; }
-    .decline span { background: var(--danger); }
-    .answer span { background: var(--success); animation: ring 1.6s ease-in-out infinite; }
-    @keyframes ring { 0%, 100% { box-shadow: 0 0 0 0 rgb(52 211 153 / .5); } 50% { box-shadow: 0 0 0 14px rgb(52 211 153 / 0); } }
-    @media (prefers-reduced-motion: reduce) { .answer span { animation: none; } html { scroll-behavior: auto; } }
+    /* Phone frame for screenshots */
+    .phone { border-radius: 40px; padding: 9px; background: linear-gradient(160deg, #2b2340, #0d0a14); box-shadow: 0 40px 90px -35px rgb(0 0 0 / .9), 0 0 0 1px rgb(255 255 255 / .07) inset; }
+    .phone img { border-radius: 32px; width: 100%; }
+    .shot { border-radius: 22px; border: 1px solid rgb(255 255 255 / .07); box-shadow: 0 30px 70px -40px rgb(0 0 0 / .9); background: var(--surface); }
 
-    /* Sections */
-    section { padding: 88px 0; }
-    section.alt { background: linear-gradient(180deg, rgb(21 27 46 / .55), transparent); border-top: 1px solid rgb(42 51 82 / .5); }
-    h2 { font-size: clamp(1.8rem, 3.6vw, 2.6rem); line-height: 1.15; letter-spacing: -.015em; margin: 10px 0 14px; }
-    .section-lede { color: var(--muted); font-size: 1.1rem; max-width: 44rem; margin: 0 0 44px; }
-    h3 { font-size: 1.15rem; margin: 14px 0 6px; }
-    .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; }
+    /* Highlights */
+    .highlights { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+    @media (max-width: 980px) { .highlights { grid-template-columns: repeat(2, 1fr); } }
+    .hl { background: var(--surface); border: 1px solid rgb(255 255 255 / .06); border-radius: 20px; padding: 18px; }
+    .hl b { display: block; font-size: 1rem; margin-top: 8px; }
+    .hl span { color: var(--muted); font-size: .9rem; }
+    .ico { width: 40px; height: 40px; border-radius: 11px; display: grid; place-items: center; background: rgb(139 92 246 / .16); color: var(--accent-soft); }
+    .ico svg { width: 21px; height: 21px; }
+
+    .card { background: var(--surface); border: 1px solid rgb(255 255 255 / .06); border-radius: var(--radius); padding: 26px; }
     .card p { color: var(--muted); margin: 0; }
-    .icon { width: 44px; height: 44px; border-radius: 14px; display: grid; place-items: center; background: rgb(245 158 11 / .14); color: var(--accent); }
-    .icon svg { width: 22px; height: 22px; }
 
-    .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
     @media (max-width: 760px) { .compare { grid-template-columns: 1fr; } }
     .compare ul { margin: 14px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; color: var(--muted); }
     .compare li { padding-left: 26px; position: relative; }
-    .compare li::before { position: absolute; left: 0; top: 0; }
+    .compare li::before { position: absolute; left: 0; }
     .compare .them li::before { content: "–"; color: var(--faint); }
-    .compare .us { border-color: rgb(245 158 11 / .45); background: linear-gradient(160deg, rgb(245 158 11 / .08), var(--surface) 60%); }
+    .compare .us { border-color: rgb(139 92 246 / .45); background: linear-gradient(160deg, rgb(139 92 246 / .12), var(--surface) 60%); }
     .compare .us li { color: var(--fg); }
-    .compare .us li::before { content: "✓"; color: var(--accent); font-weight: 700; }
+    .compare .us li::before { content: "✓"; color: var(--accent-soft); font-weight: 700; }
 
-    .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; counter-reset: step; list-style: none; padding: 0; margin: 0; }
-    @media (max-width: 980px) { .steps { grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 560px) { .steps { grid-template-columns: 1fr; } }
-    .steps li::before { counter-increment: step; content: counter(step, decimal-leading-zero); color: var(--accent); font-weight: 800; font-size: .9rem; letter-spacing: .1em; }
+    /* Steps (zig-zag) */
+    .steps { display: grid; gap: 80px; counter-reset: step; }
+    .step { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+    .step:nth-child(even) .media { order: 2; }
+    @media (max-width: 860px) { .step { grid-template-columns: 1fr; gap: 28px; } .step:nth-child(even) .media { order: 0; } }
+    .step .media { display: flex; justify-content: center; }
+    .step .media .phone { width: min(300px, 80%); }
+    .step .num::before { counter-increment: step; content: "Step " counter(step); color: var(--accent-soft); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: .78rem; }
+    .step h3 { font-size: clamp(1.5rem, 2.6vw, 2rem); margin: 8px 0 12px; }
+    .step p { color: var(--muted); font-size: 1.05rem; margin: 0 0 14px; }
+    .ticks { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+    .ticks li { padding-left: 28px; position: relative; color: var(--fg); }
+    .ticks li::before { content: ""; position: absolute; left: 0; top: .5em; width: 16px; height: 9px; border-left: 2.5px solid var(--accent-soft); border-bottom: 2.5px solid var(--accent-soft); transform: rotate(-45deg); }
 
-    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-    @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    /* Rules */
+    .rules { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    @media (max-width: 900px) { .rules { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 560px) { .rules { grid-template-columns: 1fr; } }
+    .rule .big { font-size: 2rem; font-weight: 800; letter-spacing: -.02em; color: var(--accent-soft); }
+
+    /* Reports */
+    .reports { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+    @media (max-width: 860px) { .reports { grid-template-columns: 1fr; } }
+    .reports figure { margin: 0; }
+    figcaption { color: var(--muted); font-size: .92rem; margin-top: 12px; }
+    .pills { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 0; padding: 0; list-style: none; }
+    .pills li { border: 1px solid rgb(255 255 255 / .08); background: rgb(255 255 255 / .04); color: var(--fg); padding: 7px 14px; border-radius: 999px; font-size: .92rem; }
+    .pills li.free { border-color: rgb(48 209 88 / .35); }
+
+    /* Features grid */
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
     @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
 
-    .roadmap { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; padding: 0; list-style: none; }
-    .roadmap li { border: 1px dashed var(--line); color: var(--muted); padding: 8px 14px; border-radius: 999px; font-size: .92rem; }
+    /* Gallery */
+    .gallery { display: grid; grid-auto-flow: column; grid-auto-columns: 230px; gap: 22px; overflow-x: auto; padding: 8px 4px 26px; scroll-snap-type: x mandatory; }
+    .gallery figure { margin: 0; scroll-snap-align: start; }
+    .gallery .phone { border-radius: 34px; padding: 7px; }
+    .gallery .phone img { border-radius: 28px; }
+    .gallery figcaption { text-align: center; }
 
-    details { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 0 22px; margin-bottom: 12px; }
+    details { background: var(--surface); border: 1px solid rgb(255 255 255 / .06); border-radius: 18px; padding: 0 22px; margin-bottom: 12px; }
     summary { cursor: pointer; padding: 18px 0; font-weight: 600; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
     summary::-webkit-details-marker { display: none; }
-    summary::after { content: "+"; color: var(--accent); font-size: 1.3rem; line-height: 1; }
+    summary::after { content: "+"; color: var(--accent-soft); font-size: 1.3rem; line-height: 1; }
     details[open] summary::after { content: "–"; }
     details p { color: var(--muted); margin: 0 0 18px; }
-    .faq { max-width: 820px; }
+    .faq { max-width: 840px; }
 
     .final { text-align: center; }
-    .final .card { padding: 56px 24px; background: radial-gradient(ellipse at top, rgb(245 158 11 / .14), var(--surface) 70%); }
-    .final img { width: 96px; height: 96px; margin: 0 auto 8px; }
+    .final .card { padding: 60px 24px; background: radial-gradient(ellipse at top, rgb(139 92 246 / .22), var(--surface) 70%); border-color: rgb(139 92 246 / .3); }
+    .final img { width: 104px; height: 104px; margin: 0 auto 6px; }
     .final .section-lede { margin: 0 auto 28px; }
 
-    footer { border-top: 1px solid var(--line); padding: 32px 0; color: var(--faint); font-size: .9rem; }
+    footer { border-top: 1px solid rgb(255 255 255 / .06); padding: 30px 0; color: var(--faint); font-size: .9rem; }
     footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
   </style>
 </head>
@@ -209,14 +232,16 @@
   <header class="site">
     <div class="wrap">
       <a class="brand" href="./" aria-label="Guardian Bell home">
-        <img src="assets/favicon-32.png" alt="" width="32" height="32">
+        <img src="assets/favicon-32.png" alt="" width="30" height="30">
         Guardian Bell
       </a>
       <nav aria-label="Main">
         <ul>
-          <li><a href="#why">Why it's different</a></li>
           <li><a href="#how">How it works</a></li>
-          <li><a href="#features">Features</a></li>
+          <li><a href="#fair">Fair rules</a></li>
+          <li><a href="#reports">Self-evaluation</a></li>
+          <li><a href="#ai">AI providers</a></li>
+          <li><a href="#screens">Screens</a></li>
           <li><a href="#faq">FAQ</a></li>
         </ul>
       </nav>
@@ -227,184 +252,268 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="wrap">
         <div>
-          <span class="eyebrow">Personal accountability app</span>
-          <h1 id="hero-title">Your personal guardian that <em>keeps your mission alive.</em></h1>
+          <span class="eyebrow">AI accountability system</span>
+          <h1 id="hero-title">It rings. You report. <em>It keeps you honest.</em></h1>
           <p class="lede">
-            Guardian Bell catches you drifting and pushes you back into action. It calls you on your schedule,
-            asks what you actually got done, and records your answer, so the reason behind your goals never fades.
+            Guardian Bell checks in on you through the day like an alarm, asks what you actually got done, and turns your answer
+            into commitments and deadlines. Every day ends with an honest pass or fail and a report you can learn from.
           </p>
           <div class="cta">
-            <a class="btn btn-primary" href="#how">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
-              See how a check-in works
-            </a>
-            <a class="btn btn-ghost" href="#features">Explore features</a>
+            <a class="btn btn-primary" href="#how">See how it works</a>
+            <a class="btn btn-ghost" href="#reports">Explore the tracker</a>
           </div>
           <p class="note">Coming soon to Android and iOS.</p>
         </div>
-
-        <div class="phone" role="img" aria-label="Guardian Bell incoming check-in call screen showing caller Future You and today's focus">
-          <div class="screen" aria-hidden="true">
-            <div>
-              <img src="assets/bell.webp" alt="" width="132" height="132" fetchpriority="high">
-              <div class="tag">Accountability check-in</div>
-              <div class="who">Future You</div>
-              <div class="sub">is calling to check on your progress…</div>
-            </div>
-            <div class="focus">
-              <small>Your focus</small>
-              <p>Ship the first draft</p>
-            </div>
-            <div class="calls">
-              <div class="call decline"><span><svg viewBox="0 0 24 24" fill="none" stroke="#0b1020" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span>Not now</div>
-              <div class="call answer"><span><svg viewBox="0 0 24 24" fill="#0b1020"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></span>Answer</div>
-            </div>
-          </div>
+        <div class="phones" aria-hidden="false">
+          <div class="phone back"><img src="assets/screens/incoming.webp" alt="Incoming Guardian Bell check-in with Decline and Answer buttons" width="824" height="1780" fetchpriority="high"></div>
+          <div class="phone front"><img src="assets/screens/today.webp" alt="Today screen: today’s mission ring, next check-in time and commitments with deadlines" width="824" height="1780" fetchpriority="high"></div>
         </div>
       </div>
     </section>
 
-    <section id="why" class="alt" aria-labelledby="why-title">
+    <section class="alt" aria-labelledby="hl-title" style="padding-top:56px;padding-bottom:56px">
       <div class="wrap">
-        <span class="eyebrow">Why it's different</span>
-        <h2 id="why-title">Productivity apps organize your tasks. Guardian Bell protects your why.</h2>
+        <h2 id="hl-title" class="eyebrow" style="font-size:.76rem;margin:0 0 18px">Highlights</h2>
+        <div class="highlights">
+          <div class="hl"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M5 3 2 6M22 6l-3-3"/></svg></div><b>Rings like an alarm</b><span>Exact-time alarms that re-ring every 5 minutes until you answer.</span></div>
+          <div class="hl"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5"/></svg></div><b>One answer, any way</b><span>Hear the question, then speak or type a single answer.</span></div>
+          <div class="hl"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.8L20 10l-5 3.9L16.6 20 12 16.6 7.4 20 9 13.9 4 10l6.1-1.2z"/></svg></div><b>AI of your choice</b><span>Claude, Gemini, Groq, OpenRouter, OpenAI, Mistral or local.</span></div>
+          <div class="hl"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M5 7h14M7 7l-3 7h6zM17 7l-3 7h6z"/></svg></div><b>Strict, but fair</b><span>Grace periods, locked check-in times, pending instead of failed.</span></div>
+          <div class="hl"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div><b>Self-evaluation tracker</b><span>Day reports, weekly and monthly trends, your own ratings.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" aria-labelledby="why-title">
+      <div class="wrap">
+        <span class="eyebrow">Why it’s different</span>
+        <h2 id="why-title">Task apps wait for you. Guardian Bell comes to you.</h2>
         <p class="section-lede">
-          Lists and planners assume you'll stay motivated. You won't always. Guardian Bell is built for the moment
-          motivation disappears: it interrupts the drift, reminds you what you committed to, and asks you to answer for it out loud.
+          Lists and planners assume you’ll stay motivated. Guardian Bell is built for the moment motivation disappears: it interrupts
+          the drift, asks you to answer for your plan, and keeps a record that doesn’t let you fool yourself.
         </p>
         <div class="compare">
           <div class="card them">
             <h3>Typical productivity apps</h3>
             <ul>
               <li>Wait for you to open them</li>
-              <li>Track what you planned to do</li>
               <li>Checkboxes you can quietly ignore</li>
               <li>Notifications you swipe away</li>
+              <li>No record of why things slipped</li>
             </ul>
           </div>
           <div class="card us">
             <h3>Guardian Bell</h3>
             <ul>
-              <li>Calls you, so you have to respond</li>
-              <li>Asks what you actually got done</li>
-              <li>Your spoken answer becomes a record you can revisit</li>
-              <li>Streaks that show whether you're showing up</li>
+              <li>Rings at check-in time, and again until you answer</li>
+              <li>Asks what you actually got done, in your own words</li>
+              <li>Records misses with their real cause</li>
+              <li>Ends every day with an honest pass or fail</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="how" aria-labelledby="how-title">
+    <section id="how" class="alt" aria-labelledby="how-title">
       <div class="wrap">
         <span class="eyebrow">How it works</span>
-        <h2 id="how-title">Four steps that make follow-through automatic.</h2>
-        <p class="section-lede">Set it once at the start of a focus session. Guardian Bell takes care of keeping you honest.</p>
-        <ol class="steps">
-          <li class="card">
-            <h3>Name your focus</h3>
-            <p>Write the one thing you're committing to today, like "Ship the first draft".</p>
-          </li>
-          <li class="card">
-            <h3>Pick your rhythm</h3>
-            <p>Choose how often your accountability partner calls, such as every 25 minutes.</p>
-          </li>
-          <li class="card">
-            <h3>Answer the call</h3>
-            <p>Say what you got done, what's next, and what's in your way. Your words are transcribed as you speak.</p>
-          </li>
-          <li class="card">
-            <h3>Review and keep the streak</h3>
-            <p>Replay reflections, read transcripts, and watch your daily streak grow.</p>
-          </li>
-        </ol>
+        <h2 id="how-title">A check-in, end to end.</h2>
+        <p class="section-lede">From the first ring to the day’s verdict, here’s exactly what happens.</p>
+        <div class="steps">
+          <article class="step">
+            <div class="media"><div class="phone"><img src="assets/screens/incoming.webp" alt="In-app incoming check-in screen with Decline and Answer" width="824" height="1780" loading="lazy"></div></div>
+            <div>
+              <span class="num"></span>
+              <h3>It rings, like an alarm</h3>
+              <p>At check-in time Guardian Bell rings with your alarm tone and opens its own incoming check-in screen. Answer it, or decline and say when to come back.</p>
+              <ul class="ticks">
+                <li>Exact-time alarms that work with the app closed and survive a restart</li>
+                <li>Rings again every 5 minutes until you answer or decline</li>
+                <li>Declining asks when to remind you, and why</li>
+              </ul>
+            </div>
+          </article>
+          <article class="step">
+            <div class="media"><div class="phone"><img src="assets/screens/answer.webp" alt="Check-in prompt shown in writing with a Play button, the list of commitments, and one answer box" width="824" height="1780" loading="lazy"></div></div>
+            <div>
+              <span class="num"></span>
+              <h3>Hear the question. Answer once.</h3>
+              <p>A short pre-recorded prompt plays and appears on screen. Your open commitments are listed underneath. Then you answer in one box.</p>
+              <ul class="ticks">
+                <li>Speak for as long as you need: it listens until you tap stop</li>
+                <li>Or type, or mix both</li>
+                <li>No back-and-forth chat to sit through</li>
+              </ul>
+            </div>
+          </article>
+          <article class="step">
+            <div class="media"><div class="phone"><img src="assets/screens/result.webp" alt="Check-in saved: the response and the list of commitments the AI recorded" width="824" height="1300" loading="lazy"></div></div>
+            <div>
+              <span class="num"></span>
+              <h3>AI turns your answer into a plan</h3>
+              <p>Your AI provider reads the answer and records what it means: new commitments with deadlines, what’s done, what slipped and why, and when to check in next.</p>
+              <ul class="ticks">
+                <li>Shows exactly what it recorded, nothing hidden</li>
+                <li>Picks the next check-in around your next action</li>
+                <li>Never schedules sooner than your minimum interval</li>
+              </ul>
+            </div>
+          </article>
+          <article class="step">
+            <div class="media"><div class="phone"><img src="assets/screens/today.webp" alt="Today screen with mission ring, next check-in and commitments" width="824" height="1780" loading="lazy"></div></div>
+            <div>
+              <span class="num"></span>
+              <h3>Your day at a glance</h3>
+              <p>The Today screen shows your mission, how much is done, the next check-in, and every commitment with its deadline.</p>
+              <ul class="ticks">
+                <li>“Enter your first check-in” until today’s plan is set</li>
+                <li>The check-in button lights up the moment one is due or owed</li>
+                <li>Emergency / Unavailable pauses everything, without penalties</li>
+              </ul>
+            </div>
+          </article>
+          <article class="step">
+            <div class="media"><div class="phone"><img src="assets/screens/day.webp" alt="Daily report: fail verdict, execution ring, key numbers and the AI-written story of the day" width="824" height="1780" loading="lazy"></div></div>
+            <div>
+              <span class="num"></span>
+              <h3>An honest verdict every day</h3>
+              <p>Each day ends as pass, fail or incomplete, decided by the app from what happened. The report explains how the day went and what to change tomorrow.</p>
+              <ul class="ticks">
+                <li>Pass/fail is computed from facts, never by the AI</li>
+                <li>Hard truth and tomorrow’s correction</li>
+                <li>Your own rating and reflection, by voice or text</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="fair" aria-labelledby="fair-title">
+      <div class="wrap">
+        <span class="eyebrow">Strict, but fair</span>
+        <h2 id="fair-title">Hard on excuses. Never unfair.</h2>
+        <p class="section-lede">Accountability only works if the record is trustworthy, so the rules are written into the app, not left to the AI.</p>
+        <div class="rules">
+          <div class="card rule"><div class="big">15 min</div><h3>Grace on every deadline</h3><p>A deadline only counts as overdue 15 minutes after it passes.</p></div>
+          <div class="card rule"><div class="big">Locked</div><h3>Time locked at check-in start</h3><p>Answers are judged as of the moment you opened the check-in, so taking time to answer never turns a pass into a fail.</p></div>
+          <div class="card rule"><div class="big">Pending</div><h3>Postponed isn’t failed</h3><p>Decline and ask to be reminded later: overdue work shows as awaiting check-in until you report on it.</p></div>
+          <div class="card rule"><div class="big">Facts</div><h3>Pass/fail by the app</h3><p>The result comes from whether critical commitments were met. The AI can’t move the goalposts.</p></div>
+          <div class="card rule"><div class="big">Paused</div><h3>Real life is excused</h3><p>Approved pauses and outside interruptions never count as failures, and history is never rewritten.</p></div>
+          <div class="card rule"><div class="big">Min.</div><h3>Your interval is a hard limit</h3><p>Routine check-ins never come sooner than your minimum interval, and only within your active hours.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reports" class="alt" aria-labelledby="reports-title">
+      <div class="wrap">
+        <span class="eyebrow">Self-evaluation & productivity tracker</span>
+        <h2 id="reports-title">See how your days really went.</h2>
+        <p class="section-lede">
+          Pick a day for the full story, or a week, month, three months or any custom range for the trend. Tap any bar or day to drill in.
+        </p>
+        <div class="reports">
+          <figure>
+            <img class="shot" src="assets/screens/day-timeline.webp" alt="How your day progressed: a timeline of planning, check-ins with quoted answers, missed deadlines and a declined check-in" width="824" height="1400" loading="lazy">
+            <figcaption>Every day, hour by hour: your plan, each check-in in your own words, what was missed and why, declines and pauses.</figcaption>
+          </figure>
+          <div style="display:grid;gap:24px">
+            <figure>
+              <img class="shot" src="assets/screens/week-chart.webp" alt="Weekly daily-execution bar chart marked pass, fail and incomplete, and a self-rating trend line" width="824" height="920" loading="lazy">
+              <figcaption>Daily execution with pass ✓ / fail ✕ / incomplete – markers, and your self-rating trend.</figcaption>
+            </figure>
+            <div class="card">
+              <h3>In every report</h3>
+              <ul class="ticks">
+                <li>Commitments done vs planned, missed deadlines, recovery time</li>
+                <li>What went well and what to improve, tied to real causes</li>
+                <li>Best and toughest days, and why things slipped</li>
+                <li>Change vs the previous period</li>
+                <li>An AI period review: patterns and what to focus on next</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ai" aria-labelledby="ai-title">
+      <div class="wrap">
+        <div class="reports">
+          <div>
+            <span class="eyebrow">Your AI, your choice</span>
+            <h2 id="ai-title">Bring the AI you trust.</h2>
+            <p class="section-lede" style="margin-bottom:18px">
+              Guardian Bell uses AI to read your answers and write your reports. Choose a provider, paste a key, load its models and
+              tap Save &amp; test: the test sends a real message, so you know it works before your first check-in.
+            </p>
+            <ul class="pills">
+              <li>Claude</li>
+              <li class="free">Gemini · free tier</li>
+              <li class="free">Groq · free tier</li>
+              <li class="free">OpenRouter · free models</li>
+              <li>OpenAI</li>
+              <li class="free">Mistral · free tier</li>
+              <li class="free">Ollama / LM Studio · local</li>
+            </ul>
+            <p class="note">Keys stay in your phone’s secure storage and are sent only to the provider you pick.</p>
+          </div>
+          <figure>
+            <img class="shot" src="assets/screens/providers.webp" alt="AI provider picker with Claude, Gemini, Groq, OpenRouter, OpenAI, Mistral and Custom / local" width="824" height="400" loading="lazy">
+          </figure>
+        </div>
       </div>
     </section>
 
     <section id="features" class="alt" aria-labelledby="features-title">
       <div class="wrap">
-        <span class="eyebrow">Features</span>
-        <h2 id="features-title">Everything you need to stay accountable to yourself.</h2>
-        <p class="section-lede">A focused set of tools built around one idea: noticing when you drift and getting back to work.</p>
+        <span class="eyebrow">Also inside</span>
+        <h2 id="features-title">Built for real days.</h2>
         <div class="grid">
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
-            <h3>Scheduled check-in calls</h3>
-            <p>A full-screen incoming call from your accountability partner, by default "Future You", on the interval you choose.</p>
-          </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5"/></svg></div>
-            <h3>Voice reflections</h3>
-            <p>Answer by speaking. Each reflection is saved as audio so you can hear exactly how your day went.</p>
-          </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h7"/></svg></div>
-            <h3>Automatic transcripts</h3>
-            <p>Your phone's speech recognition turns each reflection into text you can skim in seconds.</p>
-          </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2c1 3 4 5 4 9a4 4 0 0 1-8 0c0-2 1-3 1-3s-3 1-3 5a6 6 0 0 0 12 0c0-6-6-11-6-11z"/></svg></div>
-            <h3>Streaks and daily stats</h3>
-            <p>See your day streak, today's check-ins and total reflections at a glance.</p>
-          </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
-            <h3>Private by design</h3>
-            <p>No account and no cloud upload. Audio and transcripts stay in the app's private storage on your phone.</p>
-          </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
-            <h3>Focus sessions</h3>
-            <p>A live countdown to the next check-in, with the screen kept awake while your session runs.</p>
-          </article>
-        </div>
-
-        <div class="card" style="margin-top:28px">
-          <span class="eyebrow">On the roadmap</span>
-          <h3>An AI guardian that learns your patterns</h3>
-          <p>Next up: AI that reads your reflections, spots when you're drifting from your mission, and adapts its check-ins to pull you back.</p>
-          <ul class="roadmap">
-            <li>AI drift detection</li>
-            <li>Weekly reflection summaries</li>
-            <li>Check-ins when the app is closed</li>
-            <li>More languages</li>
-          </ul>
+          <article class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 4h4v16h-4zM18 8v8M6 8v8"/></svg></div><h3>Emergency / Unavailable</h3><p>One button pauses accountability for an hour, the rest of the day or a week. No calls, no penalties, and a short welcome-back check-in after.</p></article>
+          <article class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div><h3>Measured focus (Android)</h3><p>With your permission, compares what you said with time actually spent in distracting apps during work blocks, labelled clearly as measured.</p></article>
+          <article class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div><h3>Private by design</h3><p>Check-ins, commitments and reports live on your phone. No account, no Guardian Bell server.</p></article>
+          <article class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4zM15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg></div><h3>Spoken prompts</h3><p>Each check-in question is played aloud and shown in writing. Prefer silence? Turn the voice off in Settings.</p></article>
+          <article class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>You set the limits</h3><p>Minimum gap between check-ins and your active hours. The AI decides the rest within them.</p></article>
+          <article class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2c1 3 4 5 4 9a4 4 0 0 1-8 0c0-2 1-3 1-3s-3 1-3 5a6 6 0 0 0 12 0c0-6-6-11-6-11z"/></svg></div><h3>Streaks that mean something</h3><p>Pass streaks count only days where every critical commitment was really met.</p></article>
         </div>
       </div>
     </section>
 
-    <section id="faq" aria-labelledby="faq-title">
+    <section id="screens" aria-labelledby="screens-title">
+      <div class="wrap">
+        <span class="eyebrow">Screens</span>
+        <h2 id="screens-title">A closer look.</h2>
+        <p class="section-lede">Real screens from the app (with demo data). Scroll sideways for more.</p>
+        <div class="gallery" role="list">
+          <figure role="listitem"><div class="phone"><img src="assets/screens/today.webp" alt="Today screen" width="824" height="1780" loading="lazy"></div><figcaption>Today</figcaption></figure>
+          <figure role="listitem"><div class="phone"><img src="assets/screens/incoming.webp" alt="Incoming check-in" width="824" height="1780" loading="lazy"></div><figcaption>Incoming check-in</figcaption></figure>
+          <figure role="listitem"><div class="phone"><img src="assets/screens/answer.webp" alt="Answering a check-in" width="824" height="1780" loading="lazy"></div><figcaption>Prompt + one answer</figcaption></figure>
+          <figure role="listitem"><div class="phone"><img src="assets/screens/day.webp" alt="Daily report" width="824" height="1780" loading="lazy"></div><figcaption>Daily report</figcaption></figure>
+          <figure role="listitem"><div class="phone"><img src="assets/screens/week.webp" alt="Weekly summary" width="824" height="1780" loading="lazy"></div><figcaption>Weekly summary</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="alt" aria-labelledby="faq-title">
       <div class="wrap faq">
         <span class="eyebrow">FAQ</span>
         <h2 id="faq-title">Questions, answered.</h2>
-        <details>
-          <summary>Is Guardian Bell a productivity app?</summary>
-          <p>It sits in the productivity category, but it is built for personal accountability. Instead of organizing tasks, it checks in on you and asks whether you are still working on what matters.</p>
-        </details>
-        <details>
-          <summary>Where are my voice reflections stored?</summary>
-          <p>On your phone. Each reflection is saved as an audio file plus a text transcript in the app's private storage. There is no account and no cloud upload.</p>
-        </details>
-        <details>
-          <summary>How does transcription work?</summary>
-          <p>Guardian Bell uses your phone's built-in speech recognition. On iOS it runs on-device when available; on Android it uses the system recognizer, which may use the network. Transcription needs Android 13+ or iOS.</p>
-        </details>
-        <details>
-          <summary>Does it call me when the app is closed?</summary>
-          <p>Not yet. Check-in calls currently ring while the app is open, and the screen stays awake during a focus session. Background calls are on the roadmap.</p>
-        </details>
-        <details>
-          <summary>When can I download it?</summary>
-          <p>Guardian Bell is in development for Android and iOS. Store listings are coming soon.</p>
-        </details>
+        <details><summary>Do I need an AI provider?</summary><p>Yes. Guardian Bell uses AI to read your check-in answers and write your reports. You choose the provider: Claude, Gemini, Groq, OpenRouter, OpenAI, Mistral, or your own server such as Ollama or LM Studio. Several have free tiers.</p></details>
+        <details><summary>What happens if I decline a check-in?</summary><p>You pick when to be reminded (20 minutes, 1 hour, 2 hours, or 30 minutes by default) and can add a reason. The check-in stays pending, not failed, and you can check in any time before the reminder.</p></details>
+        <details><summary>Will I fail a day because I was slow to answer?</summary><p>No. Deadlines have a 15-minute grace period, and your answer is judged as of the moment you opened the check-in, not when you pressed submit. A deadline that passes while a check-in is postponed shows as awaiting check-in until you report on it.</p></details>
+        <details><summary>Who decides pass or fail?</summary><p>The app, from stored facts: whether each critical commitment was met by its agreed deadline. The AI writes the narrative but never changes the result. Approved pauses and outside interruptions never count as failures.</p></details>
+        <details><summary>Where is my data stored?</summary><p>On your phone. Check-ins, commitments and reports are kept in the app’s local database, and API keys in the phone’s secure storage. Your answers are sent only to the AI provider you choose.</p></details>
+        <details><summary>Does it work on iPhone?</summary><p>Guardian Bell is built for Android and iOS. Alarm-style ringing over the lock screen and measured app usage are Android features; on iPhone, check-in reminders arrive as notifications.</p></details>
       </div>
     </section>
 
     <section class="final" aria-labelledby="final-title">
       <div class="wrap">
         <div class="card">
-          <img src="assets/bell.webp" alt="Guardian Bell app icon" width="96" height="96" loading="lazy">
-          <h2 id="final-title">Motivation fades. Your guardian doesn't.</h2>
+          <img src="assets/bell.webp" alt="Guardian Bell app icon" width="104" height="104" loading="lazy">
+          <h2 id="final-title">Motivation fades. Your guardian doesn’t.</h2>
           <p class="section-lede">Guardian Bell is coming soon to Android and iOS.</p>
           <a class="btn btn-primary" href="#how">See how it works</a>
         </div>
@@ -415,7 +524,7 @@
   <footer>
     <div class="wrap">
       <span>© <span id="y">2026</span> Guardian Bell</span>
-      <span>Personal accountability, one check-in at a time.</span>
+      <span>Check in. Follow through. Evaluate honestly.</span>
     </div>
   </footer>
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
